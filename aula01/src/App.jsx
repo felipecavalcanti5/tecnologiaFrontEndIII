@@ -4,6 +4,7 @@ import Exercicio1Subtracao from './components/Exercicio1Subtracao'
 import Exercicio1Multiplicacao from './components/Exercicio1Multiplicacao'
 import Exercicio1Divisao from './components/Exercicio1Divisao'
 import Exercicio1Media from './components/Exercicio1Media'
+import PrecisoEstudar from './components/PrecisoEstudar'
 
       {/*código limpo não se comenta*/}
 
@@ -15,6 +16,7 @@ const App = () => {
       <Exercicio1Multiplicacao num1 = {5} num2 = {6} />
       <Exercicio1Divisao num1 = {50} num2 = {2} />
       <Exercicio1Media num1 = {5} num2 = {10} />
+      <PrecisoEstudar nomeDaTecnologia = {"React"} />
     </div>
   )
 }
