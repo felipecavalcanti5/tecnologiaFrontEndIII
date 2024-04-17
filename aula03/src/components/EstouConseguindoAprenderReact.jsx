@@ -1,8 +1,12 @@
 import React from 'react'
 
-const estouConseguindoAprenderReact = () => {
+const estouConseguindoAprenderReact = (props) => {
+
+  const estouConseguindo = props.estouConseguindo;
+  
   return (
-    <div>estouConseguindoAprenderReact</div>
+
+    <div>{estouConseguindo?<h1>Estou indo bem</h1>: <h1>Preciso estudar mais</h1>}</div>
   )
 }
 

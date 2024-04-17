@@ -14,7 +14,7 @@ const App = () => {
       <Exercicio1Adicao num1= {2} num2= {3}/>
       <Exercicio1Subtracao num1 = {7} num2 = {4} />
       <Exercicio1Multiplicacao num1 = {5} num2 = {6} />
-      <Exercicio1Divisao num1 = {50} num2 = {2} />
+      <Exercicio1Divisao num3 = {100} num45 = {2} />
       <Exercicio1Media num1 = {5} num2 = {10} />
       <PrecisoEstudar nomeDaTecnologia = {"React"} />
     </div>

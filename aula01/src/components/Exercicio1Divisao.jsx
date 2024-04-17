@@ -2,7 +2,7 @@ import React from 'react'
 
 const Exercicio1Divisao = (props) => {
   return (
-    <div>O resultado de num1 / num2 é: {props.num1 / props.num2}</div>
+    <div>O resultado de num3 / num45 é: {props.num3 / props.num45}</div>
   )
 }
 

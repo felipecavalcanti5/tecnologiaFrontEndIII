@@ -1,8 +1,16 @@
 import React from 'react'
 import Aluno from './components/Aluno'
+import estouConseguindoAprenderReact from './components/EstouConseguindoAprenderReact'
 
 
 const App = () => {
+
+  return (
+    <div>
+      <estouConseguindoAprenderReact/>
+    </div>
+  )
+  /*
   return (
     <>
       {
@@ -14,8 +22,7 @@ const App = () => {
           <Aluno nome={aluno.nome} curso={aluno.curso} email={aluno.email} media={aluno.media}/>
         )
       }
-    </>
-  )
+    </>*/
 }
 
 export default App
